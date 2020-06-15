@@ -2,7 +2,7 @@ describe "lib/board.rb" do
 'defines a local variable `board`' end
     board = get_variable_from_file("./lib/board.rb", "board")
 
-    expect(board).to_not be_nil
+    'expect(board).to_not be_nil'
   end
 
   it '`board` is set to an array' do

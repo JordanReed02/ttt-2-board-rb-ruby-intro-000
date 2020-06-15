@@ -22,4 +22,3 @@ describe "lib/board.rb" do
 
     expect(board).to match_array([" "," "," "," "," "," "," "," "," "])
   end
-end

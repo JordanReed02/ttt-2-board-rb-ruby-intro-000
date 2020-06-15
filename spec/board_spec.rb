@@ -25,3 +25,5 @@ proc.new
 
     expect(board).to match_array([" "," "," "," "," "," "," "," "," "])
   end
+#...
+end 

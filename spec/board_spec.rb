@@ -22,4 +22,5 @@ describe "lib/board.rb" do
  it '`board` is an array with 9 strings with an empty space value, " "'do
  board = get_variable_from_file("./lib/board.rb", "board")
 
-    expect(board).to match_array([" "," "," "," "," "," "," "," "," "]) end
+    expect(board).to match_array([" "," "," "," "," "," "," "," "," "])
+  end

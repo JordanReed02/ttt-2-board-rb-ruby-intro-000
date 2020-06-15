@@ -1,5 +1,5 @@
 def describe
-  
+
 describe "lib/board.rb" do
 'defines a local variable `board`' end
     board = get_variable_from_file("./lib/board.rb", "board")
@@ -23,4 +23,3 @@ describe "lib/board.rb" do
     board = get_variable_from_file("./lib/board.rb", "board")
 
     expect(board).to match_array([" "," "," "," "," "," "," "," "," "])
-  end
